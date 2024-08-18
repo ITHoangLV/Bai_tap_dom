@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="remove-me">Hôm nay tôi buồn</p>
+    <script> 
+        const elementToRemove = document.getElementById("remove-me");
+        const parentElement = elementToRemove.parentNode;
+        parentElement.removeChild(elementToRemove);
+    </script>
+</body>
+</html>
